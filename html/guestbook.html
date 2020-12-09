@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name = "author" content = "Carl Setzer">
+	<meta name = "keywords" content = "developer, websites, technology, resume">
+	<meta name = "Description" content = "Carl Setzer's guestbook">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name = "robot" content = "follow">
+	<link rel="shortcut icon" href="../images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+	<title>My Guestbook</title>
+</head>
+
+<body>
+
+<!--My navigation buttons-->
+	<nav >
+	<div>
+		<a href="../html/home.html">Home</a> &nbsp;
+		<a href="../html/Resume.html">Resume</a>&nbsp;
+		<a href="../html/Interests.html">Interests</a>&nbsp;
+		<a href="../html/Reflections.html">Reflections</a>&nbsp;
+		<a href="../html/Guestbook.html">Guestbook</a>&nbsp;
+	</div>
+
+</nav>
+<h1 style="text-align: center">Carl Setzer's Guestbook</h1>
+	<img src="../images/guestbook.jpg" alt="Photo of a guest book" class="floatleft">
+	<br /> <br />
+
+	<br /> <br />
+
+<!--Used "mailto" as the post method-->
+
+	<form action="mailto:c.setzer5143@edmail.edcc.edu?subject=WebFormSubmittal" enctype="text/plain" method="post">
+	
+	Enter Your Name: <br />
+	<input type="text" name="Name" size="40" />
+	<br />
+	<br />
+	
+	Enter Your Email:<br />
+	<input type="text" name="Email" size="40" />
+	<br />
+	<br />
+	
+	What country do you live in?<br />
+		<input type="text" name="country" size="40" />
+	<br />
+	<br />
+	
+	What is your experience as a Web Developer? <br />
+		<input type="radio" name="Experience" value="None" id="None" > 
+		<label for="None">None</label><br />
+		<input type="radio" name="Experience" value="Beginner" id="Beginner">
+		<label for="Beginner">Beginner</label><br />
+		<input type="radio" name="Experience" value="Intermediate" id="Intermediate">
+		<label for="Intermediate">Intermediate</label><br />
+		<input type="radio" name="Experience" value="Advanced" id="Advanced">
+		<label for="Advanced">Advanced</label><br />
+	
+	<br />
+	<br/>
+	
+	What web technologies are you interested in? (use ctrl+click to check all that apply): <br />
+	<select name="interests" multiple="multiple" size="6">
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JavaScript</option>
+		<option>AJAX</option>
+		<option>SQL</option>
+		<option>PHP</option>
+	</select>
+	<br />
+	<br />
+	How did you find my website?<br />
+	<select name="website">
+		<option>Select one</option>
+		<option>I'm a friend</option>
+		<option>A friend directed me to your site</option>
+		<option>School Website</option>
+		<option>A search engine directed me to your site</option>
+		<option>I came across your site by accident</option>
+		<option>Other</option>
+	</select>
+	<br />
+	<br />
+
+	Do you have a website? Type the URL here:<br />
+	<textarea name="website" cols="50" rows="2">
+	Type your domain here
+	</textarea>
+	<br />
+	Comments: <br />
+	<textarea name="comments" cols="50" rows="6">
+	Enter your message here: 
+	</textarea>
+	<br />
+	<br />
+	
+
+	
+	<input type="submit" value="Submit"/>
+	<input type="reset" />
+	
+	</form>
+
+<!--My footer with connection to my social media channels-->
+<footer>
+	<a href="https://www.facebook.com/carlsetzer" target="_blank"><img src="../images/facebook.png" height="50" alt="Facebook Logo"></a> <a href="https://www.linkedin.com/in/carlsetzer/" target="_blank"><img src="../images/linkedin.png" height = "50" alt="LinkedIn"></a> <a href="https://twitter.com/CarlSetzer" target="_blank"> <img src="../images/twitter.png" height="50" alt="Twitter"></a>
+	<p>Connect With Me!</p>
+	
+	
+</footer>
+</body>
+
+</html>
+
